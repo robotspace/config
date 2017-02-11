@@ -1,0 +1,16 @@
+[alias]
+	br=branch
+	ci=commit
+	co=checkout
+	st=status
+[ui]
+	color=auto
+[user]
+	name = robot
+	email = robotspace.biz@gmail.com
+[core]
+	editor=emacs
+[merge]
+	tool=meld
+[push]
+	default = simple

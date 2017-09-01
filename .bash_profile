@@ -23,7 +23,7 @@ export ANDROID_NDK=/home/robot/toolchain/android-ndk-r9d
 export NDK_ROOT=$ANDROID_NDK
 PATH=$PATH:$ANDROID_HOME:$NDK_ROOT
 
-export JDK_HOME=/opt/jdk1.7.0_71
+export JDK_HOME=/opt/jdk1.8.0_141
 export JAVA_HOME=$JDK_HOME
 export JRE_HOME=$JAVA_HOME/jre
 PATH=$JAVA_HOME/bin:$PATH
@@ -31,4 +31,10 @@ export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib
 
 export COCOS_CONSOLE_ROOT=/home/robot/toolchain/cocos2d-x-3.9/tools/cocos2d-console/bin
 PATH=$PATH:$COCOS_CONSOLE_ROOT
+export MY_SQL_BIN=/usr/local/mysql/bin
+PATH=$PATH:$MY_SQL_BIN
+export REDIS_HOME=/usr/redis
+PATH=$PATH:$REDIS_HOME
+IDEA_BIN=/home/robot/toolchain/idea-IC-172.3757.52/bin
+PATH=$PATH:$IDEA_BIN
 export PATH

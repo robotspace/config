@@ -161,6 +161,7 @@
 (template-initialize)
 ;;lizp add for cscope!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 (require 'xcscope)
+(require 'nginx-mode)
 ;;lizp add for cedet
 ;;(load-file "/usr/cedet-1.0pre7/common/cedet.el")
 ;;(global-ede-mode 1)                      ; Enable the Project management system

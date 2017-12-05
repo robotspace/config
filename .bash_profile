@@ -37,4 +37,6 @@ export REDIS_HOME=/usr/redis
 PATH=$PATH:$REDIS_HOME
 IDEA_BIN=/home/robot/toolchain/idea-IC-172.3757.52/bin
 PATH=$PATH:$IDEA_BIN
+NGINX_BIN=/usr/local/openresty/nginx/sbin
+PATH=$PATH:$NGINX_BIN
 export PATH

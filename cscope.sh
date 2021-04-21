@@ -9,9 +9,10 @@ else
 fi
 
 find . -regex ".*\.[cChH]\(pp\)?" -exec etags -a {} \;
-find . -name "*.h" -o -name "*.c" -o -name "*.cc" -name "*.cpp" > cscope.files
+find . -name "*.go" -exec etags -a {} \;
+find . -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.go" > cscope.files
 cscope -bkq -i cscope.files
-ctags -R
+#ctags -R
 if [ $# -eq 0 ]
 then
     echo "done."
